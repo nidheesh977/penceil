@@ -1,0 +1,34 @@
+@font-face {
+  font-family: 'archivo';
+  src: local('Archivo'),
+       url('../fonts/Archivo-Regular.ttf') format("truetype");
+}
+@font-face {
+  font-family: 'archivo-medium';
+  src: local('Archivo-medium'),
+       url('../fonts/Archivo-Medium.ttf') format("truetype");
+}
+@font-face {
+  font-family: 'archivo-bold';
+  src: local('Archivo-bold'),
+       url('../fonts/Archivo-Bold.ttf') format("truetype");
+}
+body{
+  margin: 0;
+  padding: 0;
+  font-family: archivo;
+}
+.page_section{
+  background: #0C0C0C;
+  color: #fff;
+  /* min-height: fit-content */
+  padding: 7px;
+  min-height: calc(100vh - 70px);
+}
+h1{
+  font-family: archivo-bold; 
+}
+.dummy_img{
+  background-color: #fff;
+  height: 200px;
+}
