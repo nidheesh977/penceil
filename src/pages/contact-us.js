@@ -98,7 +98,7 @@ function ContactUs() {
                   placeholder="ENTER MESSAGE"
                 />
                 <div className={styles.btnwrapper}>
-                  <Button type="button" className={styles.submitbtn}>
+                  <Button type="button" className={styles.submitbtn} style = {{marginBottom: "30px"}}>
                     CONTACT US
                   </Button>
                 </div>
@@ -433,12 +433,7 @@ function ContactUs() {
               </div>
             </Grid>
           </Grid>
-          <Grid className={styles.footer}>
-            <button className={styles.footerBtn}>GMAIL</button>
-            <button className={styles.footerBtn}>LINKEDIN</button>
-            <button className={styles.footerBtn}>CONTRA</button>
-            <button className={styles.footerBtn}>BEHANCE</button>
-          </Grid>
+          
         </Container>
       </section>
     </>
